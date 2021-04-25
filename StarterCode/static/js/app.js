@@ -28,3 +28,12 @@ function buildCharts(sample) {
     var otu_ids = result.otu_ids;
     var otu_labels = result.otu_labels;
     var sample_values = result.sample_values;
+
+     // Build a Bubble Chart
+     var bubbleLayout = {
+      title: "Bacteria Cultures Per Sample",
+      margin: { t: 0 },
+      hovermode: "closest",
+      xaxis: { title: "OTU ID" },
+      margin: { t: 30}
+    };
