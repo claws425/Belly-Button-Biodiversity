@@ -48,3 +48,6 @@ function buildCharts(sample) {
           color: otu_ids,
           colorscale: "Earth"
         }
+      }
+    ];
+    
