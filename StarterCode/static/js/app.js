@@ -63,3 +63,8 @@ function buildCharts(sample) {
           orientation: "h",
         }
       ];
+
+      var barLayout = {
+        title: "Top 10 Bacteria Cultures Found",
+        margin: { t: 30, l: 150 }
+      };
