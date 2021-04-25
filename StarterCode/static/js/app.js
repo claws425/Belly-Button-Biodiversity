@@ -19,3 +19,4 @@ function buildMetadata(sample) {
   });
 }
 
+function buildCharts(sample) {
