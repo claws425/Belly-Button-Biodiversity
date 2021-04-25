@@ -100,3 +100,6 @@ function buildCharts(sample) {
     buildCharts(newSample);
     buildMetadata(newSample);
   }
+   
+  // Initialize the dashboard
+init();
