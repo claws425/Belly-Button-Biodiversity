@@ -16,3 +16,5 @@ function buildMetadata(sample) {
       Object.entries(result).forEach(([key, value]) => {
         PANEL.append("h6").text(`${key.toUpperCase()}: ${value}`);
       });
+    }
+  }
