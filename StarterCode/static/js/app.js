@@ -94,3 +94,9 @@ function buildCharts(sample) {
       buildMetadata(firstSample);
     });
   }
+
+  function optionChanged(newSample) {
+    // Fetch new data each time a new sample is selected
+    buildCharts(newSample);
+    buildMetadata(newSample);
+  }
