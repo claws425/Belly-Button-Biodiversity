@@ -50,4 +50,5 @@ function buildCharts(sample) {
         }
       }
     ];
-    
+
+    Plotly.newPlot("bubble", bubbleData, bubbleLayout);
